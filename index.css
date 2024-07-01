@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: rgba(29, 27, 27, 0.205);
+}
+
+/* header session */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px ;
+}
+
+.navs {
+  list-style: none;
+  display: flex;
+  
+}
+
+.navs li {
+    margin: 15px 50px 0 50px;
+}
