@@ -1,27 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website HNG</title>
-   <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body>
     <header>
-        <div class="header-name">
-            <h1>Ade'Dotun</h1>
-        </div>
-        <div class="header-navs">
-            <ul class="navs">
-                <li>About</li>
-                <li>Experience</li>
-                <li>UTC</li>
-            </ul>
-        </div>
+      <div class="header-name">
+        <h1>Ade'Dotun</h1>
+      </div>
+      <div class="header-navs">
+        <ul class="navs">
+          <li><a href="http://keyword.dog/" data-testid="keywordLink">Keyword</a></li>
+          <li><a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">Scrapeany</a></li>
+          <li><a href="https://hng.tech/internship" data-testid="hngLink">HNG</a></li>
+        </ul>
+      </div>
     </header>
     <main>
-        <div><img src="image/profile-pics.jpg" alt=""></div>
+      <div>
+        <img
+          src="image/picture-profile.jpg"
+          alt=""
+          data-testid="slackProfilePicturess"
+        />
+      </div>
+      <div>
+        <div class="intro">
+          <div id="utc-date" data-testid="currentDay"></div>
+          <div id="utc-time" data-testid="currentTimeUTC"></div>
+          <h3>
+            hi there, I'm
+            <span class="slack-displayName" data-testid="slackDisplayName"
+              >AdeTiDotun</span
+            >
+          </h3>
+          <h2>A Frontend developer (Intern)</h2>
+        </div>
+        <div class="goals">
+          <h2>Goals and Growth</h2>
+          <h2>Year 1</h2>
+          <h3>Complete my advance courses on React</h3>
+          <h3>Complete my Node.js course</h3>
+          <h3>Get an internship to upskill and get real experience</h3>
+          <h3>Network more</h3>
+          <h2>Year 2</h2>
+          <h3>Build a functional fullstack application</h3>
+          <h3>Contribute more to Open source projects</h3>
+          <h3>Start learning a new language</h3>
+        </div>
+      </div>
     </main>
-    <footer></footer>
-</body>
+    <footer>
+      <div class="footer">
+        <p><a href="https://github.com/AdeTiDotun/">GitHub</a></p>
+        <p><a href="https://x.com/AdeTiDotun">Twitter</a></p>
+        <p><a href="mailto:adejumodaniel274@gmail.com">Email</a></p>
+      </div>
+    </footer>
+  </body>
 </html>
