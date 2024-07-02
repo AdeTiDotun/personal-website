@@ -4,7 +4,7 @@ body {
   color: white;
   font-family: "Playwrite DE Grund", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 200;
   font-style: normal;
 }
 
@@ -34,6 +34,7 @@ header {
   color: antiquewhite;
   border: 2px solid;
 }
+
 
 /* main session */
 
@@ -83,3 +84,55 @@ img {
  text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  
+    main {
+      display: block;
+      margin: 20px 100px;
+      background-color: rgb(207, 205, 202);
+      border-radius: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+  main {
+    display: block;
+    margin: 0;
+    background-color: rgb(207, 205, 202);
+    border-radius: 10px;
+  }
+
+  img {
+    margin: 0;
+  }
+  .goals {
+    margin: 10px 20px;
+  }
+  
+  .greetings {
+    margin: 10px 20px;
+  }
+
+  .greeting {
+    margin: 10px 20px;
+  }
+
+  .intro {
+    margin: 10px 0;
+  }
+
+  header {
+    display: block;
+    margin: 0 20px;
+  }
+
+  .navs {
+    list-style: none;
+    display: block;
+  }
+
+  .navs li {
+    margin: 0;
+    padding: 0;
+  }
+}
